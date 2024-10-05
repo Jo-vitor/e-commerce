@@ -11,7 +11,6 @@ export interface ProdutoItemProps {
 export default function ProdutoItem(props: ProdutoItemProps) {
     const { produto } = props;
 
-
     return (
         <Link 
             href={`/produto/${produto.id}`}
